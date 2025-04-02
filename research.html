@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shyam Sudhakar - Research</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -51,32 +52,41 @@
     </section>
     <section class="research">
         <h2>Past Research Projects</h2>
-        
+    
         <div class="research-item">
             <h3>Computational modeling of network activity in the cerebellum</h3>
-            <a href="https://pubmed.ncbi.nlm.nih.gov/28934196/">(View Research)</a>
-            <img src="images/pcbi_1005754_g001.avif" alt="Research Image 1">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/28934196/" target="_blank">(View Research) 
+                <img src="images/pcbi_1005754_g001.avif" alt="Research Image 1" onclick="openModal(this)"</a>
+            
         </div>
-
+    
         <div class="research-item">
             <h3>Effect of alcohol on cerebellar network activity</h3>
-            <a href="https://pubmed.ncbi.nlm.nih.gov/23383260/">(View Research)</a>
-            <img src="images/pone_0055673_g006.avif" alt="Research Image 2">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/23383260/" target="_blank">(View Research)
+                <img src="images/pone_0055673_g006.avif" alt="Research Image 2" onclick="openModal(this)"></a>
         </div>
-
+    
         <div class="research-item">
             <h3>Computational modeling of brain pathologies</h3>
-            <a href="https://pubmed.ncbi.nlm.nih.gov/30484362/">(View Research)</a>
-            <img src="images/fig-2.avif" alt="Research Image 3">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/30484362/" target="_blank">(View Research)
+                <img src="images/fig-2.avif" alt="Research Image 3" onclick="openModal(this)">
+            </a>
         </div>
-
+    
         <div class="research-item">
             <h3>Modeling of neurons in the retrosplenial cortex</h3>
-            <a href="https://pubmed.ncbi.nlm.nih.gov/32023472/">(View Research)</a>
-            <img src="images/1-s2_0-S2211124719317589-fx1.avif" alt="Research Image 4">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/32023472/" target="_blank">(View Research)
+                <img src="images/1-s2_0-S2211124719317589-fx1.avif" alt="Research Image 4" onclick="openModal(this)">
+            </a>
+            
         </div>
-
     </section>
+    
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalImage" src="" alt="Enlarged Image">
+    </div>
 
     <footer>
         <div class="contact">
