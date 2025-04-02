@@ -8,3 +8,6 @@ window.onclick = function(event) {
 function closeModal() {
     document.getElementById('imageModal').style.display = "none";
 }
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
