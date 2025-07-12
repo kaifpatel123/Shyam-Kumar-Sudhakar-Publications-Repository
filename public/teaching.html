@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shyam Sudhakar - Teaching</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <header>
+  <h1>Welcome to the Computational Brain Pathologies Lab</h1>
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  <style>
+    .menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    z-index: 999;
+  }
+
+  nav.show ul {
+    display: block;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+  </style>
+
+
+  <nav id="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="news.html">News</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <section class="research-section">
+    <h2 class="section-title">Teaching</h2>
+    <p style="text-align: center; font-size: 1.1rem;"></p>
+
+    <div class="experience-grid">
+      <div class="exp-card">
+        <h3><i class="fas fa-book-reader"></i> Courses Taught</h3>
+        <ul>
+          <li>Form and Function - T7/2021-22</li>
+          <li>Brain & Behavior - T4/2021-22</li>
+          <li>Intro to Computational Thinking - T3/2022</li>
+          <li>Life at Different Scales - T4/2022</li>
+          <li>Intro to Human Brain and Mind - T6/2023</li>
+          <li>Python for Data Science - T3/2023 & T3/2024</li>
+          <li>Intro to Data Science - T4/2023</li>
+          <li>Responsible AI - T7/2025</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-container">
+                   <style>
+  .social-follow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align to the left, change to center if needed */
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .social-follow-container h4 {
+    margin: 0;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 24px;
+  }
+
+  .social-icons a {
+    color: #000;
+    transition: color 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #0077b5;
+  }
+</style>
+        <div class="footer-section">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABnCAMAAAByzP2XAAAA81BMVEX///9WVlsmi8sdXKREwuMRGCB8fICWlpn29vddXWHz8/PT09StrbDNzc+Tk5b6+vro6OmMjJDJycp2dnvy9fqtxN5KT1U4cK+VxuZsz+nE7PYhgceey+hRotUgJi7a29w+Q0peqdjg9fpIyeajvdrr+fwuNDuy1u2j4fHS8Ph81OtXpde7u71Ie7VnZ2un0Oo6ldCVstTW4u9gZWrK2epqr9u3y+K36PSgoKNKzeiT3O8bUpzm7fVXhryytbeMrNEnY6jD3/Ewaqx6uN+D3/DY6/Zq1uyJuuBOmNGe6PY6X6Xe5fEWSZhzmsec6/hQgblpk8OT8yMLAAAKaElEQVR4nO2ciVviSBbAC7E4wpFwiIpCUBS0h45nK/YgNs709sz2dvf8/3/N1pXUe5WDoDZH777PD5Mqkrxf3lGvKgAhqeX4/uzju/39/jaTdvrD1k72t7WcrVqZV0g8hz38vCKdXiIJ9viytXU0tFej1sICOe5xF+Pg8qW5Gs0WkwR77G358sf6e1gqDkayGu3Sy3y/EvJhNdqll+Q4/yU4oF8drUa79PI/wLFRfvUunT0Mjtu75WkYK+enYCclh+FXzefs6kna2/t652Xx0dzNZrM7P1/VRGkzlQOSl8XH5DnL5WQZ6sbKuVBakbzQr3azUlbpXcdKbUHySo5s9nZZaofktL+tSV7Nkd1dnuaG7APNX5Z3VXxIWV28f/Q1v38De6w0Rs4W5PgNdyGO1ebfszezx6rHkbNfhIPFSWKcH24MB8F515gPbo49COZon8IKcnM5zk9hBbm5HO3TbVBBovgw8m5hXTg+z9RGiIORqDXEJHu8XxMOVpRLkggOn2Qz/OpyS5CgfHUcbHLv2gyOGVdvRv5E4wfY+ReZHMTGh702fkXIB6Hg5/MHOA6eIZLhwfrbg0ykhgfN4wfNQch9JElSnbja2S0hF1sGyUfZHkVi5t33CRxupVSqO3rf5g0j1mCX2IYS1zLVcXSnL/As4ky8sRI68sMWJvnod4S9a6H4yGWYlLWCHt/32OWtYgaIVxshPfOZsJTxmeuicWxcb6LjWJCAOhHbZHZg+lWSPUyQguAocp0xCJdqYSGQmrwDBdwKQBhJ+2/Yd99HJPhJzhwOA0TsZUokEiTjaaPMB3FU68i4YBOSGE+d2g+QZCEODDIGl5YgXsNjfz6TF3i8BClCMUDK6pgcvt7puX0JUGaw78vwHJLAJ56JcR4CmcIbK0Eq8jRuWbJUEUiVFKDgR62ebygXNb/r3xMAsjXUXYfMQseAZF+f0J7LAUHqSFcIwnelYr5z5RFWhIiT5flBKNxZKdJvR5McCl+LJEnBAUBc7AkGiOqepgURoe7wVw9aiq/2MptEeNeFipoIkjQcGqQQJN5oEKlaPiWII2+KCJQ6aBeDheFdgsSffxzMEMlpWg4NIjaKOi+FQIRStZQgY5k1XDPc5aqcQXII51EHwzbIwtvHKeIcgcg0BPR+FYjNzVu01OlBuKvavX8MvesoqFu4/CX8T8lDm6SsrxRIOTQShEDETfYjdw5I3e+ewoNIsODL6pLJpeYYAo4OAWM843hOxyFB6nL0QvklBNKQ3pIKpOYfK04Mwn1f14k+yYcQR0DycJ7WHgqk1oBuEw0yyihvSQEi1RebVYhPSD/g8EnC9ghIFuFQRQmXBu4wQErY9wRIzq37gkvKsrZvBYc74JAk0RyCJH18IJCa0YFA3KrBGqq1UH3SACHuoXCHHLzu6sRwMJLFODRIzpg5SJBGjosqNxq6kk0EqUMrlFHvdh/Vu5NYDpb5FuIArmUURRFlPOhNBKnBuADxwuQB2IMLzLvG/ANy/H41j0ONg0IXVEuYIF4ecQoQL9fwpQiqdaF6kBZUXlQ757f//hrLcbEXz3F/ngZkNA6HiQQR9Tn0FAgSk7WEM+WD3RE89fV/srv6U3yYY4hq4R+A44R83+6jFe44EBmeaCCRIHVSIKViiDIRxJMHOlIKstpUWe2R6RWQhDgAyQ9kj++8GkgmUSO7I+97dIlSD0VBEohM1NoxpUnV0d+ymgRzzOTGMI5jHolfa6nLRxeNtVAySACpmnkgA8L9Sei2O4njkCQ25vhbFSyJJEH1K6eHeqSAIHJWBUfMeBAnksMP9x2pHbMJXN/tQKoL/nkfmHe/ByVkEomeWMmMGiiHBsSKGULxICLUvWpNSx4UQNdKvV0IwsaPvwDWjHzSHE9Er28nkoCpbg6FAi5RxkYIxYOg2lIKCPfmpzBJh4VME88ZA5Pw8aOdigSAqGm5GwUi9TNWUaJARKwVjSoBXOQxa5J0xPDVBDa5nPmDiBwHU5HAVRR555S2BojsC3JwLIgI9bzRONIh9pQ1SDpqGIY28Un88TwNCVrXknk2FwWipl5o8SHnlipaxNqvDPWScRG5HiDOdZfFJJ1geDS8a1dzpCLBK41jHdShiVVOe3r8SmNZ33so1cCckywk+eMSfFi/2UEk2W/gBPNJjEVsOWKMokDQclEcSAOfzpeKvgl3kMT4zsERIBnirrkkBoiqVUoRINLTlf/HgACFsTQCS5Pb3wGJ8UWQlCTbESQ5XkJM9b7T4A2sEGY5jG0gbx+LcqPkbxoi12Lw2QKp8KJFuNxs+BWQPE/Am5539dMTMTIuQhJetbXZvmNF9cguR22FhL3XCh0CDi1YoqtzOIkmYZn58RUkS5fh5bAZRSLqq/Qkx0tXPCSXkSRqpPyxHBLbSf01LSsi5KXssQHv2iQJRvxHFPE/iyRHzWeCcWJ3aRzJhA/d1xqEf9L1Ue9hksN4knlzxiS5oWb1EScOFSBOuRDu+7J1eQzHkxPIwcfBTjqSV9jEjvWXkFiiZBvT0PNpQj53+LPDgGSH/AM4eF3SfDMSezpmQ+F0LIaEAtPFsaRyTL2Ca7kusUqOy2+2VZFsNgseEUBWXZTPjiWSbYuWHMtmR5TEEf7pxetdFMeT6EoiOV+IpEfZ3LRIuwViD6g3HVCaE/eXuVaB7XjEGdAug6t2B/ydzOc81l7nDb3uwOUE3LVuKJMaYUfcELdLe/gid5Lj0bCHkLcicdmVCelSdtNrlLbKpR7XkgU7i5ES7docijU02EueM5YpIxrwnSk7lr2JgTrite46pE4H7OA8rRhXuYvleDMSH4Q7wYAKvXm+Kotgv+EMrQF/F6s6LKFlhoqCLcf/jVzRwH2uJ2OkR115hCFXVxF+JcV+GxII0qUBgnydMv0tvjWmg0yrJTymJbNthdKeXGZoQZAqrRKb5iIuFMfxViQYxMYgHK3MNczTm9F4LAygQAjzQdpzTBCHwU6pG74O9iujqv8NkOzhrtQkEmQQA1KjJS8jdoM5VCsY/5wWzZggzNFII+xZBsdT9hp3v4FNLO4vNo12LXaDM62p+M/vsqUNQAQf7RIdI5JvSse9sGc9Ir86yWY/fUX9b+FdGZpptHi2ZSmHZSKWn4oWcW6onDV5tCXeVWV51eO+XxnQ/KjA31Yr1VjCJfUBrdk8L7QG3GqsYhmYnoU+J3NFrvg/g+QNvMvyuoP6iCvh9VpF5vrFwZiMBzcDMfOudNWkctTqipab3k2vxfNtrtfqsfxmF3vFXoWvDg16YpFrqtCBXCOOE7nxyfCutCRL+30LuxsuN2+xXykSwyYpvcv4gsDPk1Y3ovEu4LjSxnkRybJ+qIPVKPWo9jt//NgBbvYC71qaPXI35pqdklt/HLwFJGYWnkuyNI4EufbX4SBJkndFkMx7vLgcafrDeRJJgk3a/fXgAIJIDO86iidZQ0FxYnz3NsEmayhJNvk/yWokybs2OE5+mYiPz10f1v8nkDBJpHd1LjbiR6nINXjMHo6Tzt4GGENJc+ebnnPhb9w3N4dCSfP25Ns/j+/fh6qV9ZD/AvdRIX1uS33MAAAAAElFTkSuQmCC" alt="KRea Logo" class="footer-logo" />
+          <p>Krea University, 5655<br>Central Expressway, Chittoor <br>Andhra Pradesh, Sricity - 517541</p>
+        </div>
+        <div class="footer-section">
+          <div class="social-follow-container">
+            <h4>Follow Dr. Shyam Kumar Sudhakar</h4>
+            <div class="social-icons">
+              <a href="https://scholar.google.com/citations?user=Zm7WsIsAAAAJ" target="_blank" title="Google Scholar">
+                <i class="fas fa-graduation-cap"></i>
+              </a>
+              <a href="https://www.researchgate.net/profile/Shyam-Sudhakar-4" target="_blank" title="ResearchGate">
+                <i class="fab fa-researchgate"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/shyam-kumar-sudhakar-6b953118a/" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="mailto:shyamkumar.sudhakar@krea.edu.in" target="_blank" title="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>&copy; 2025 Dr. Shyam Kumar Sudhakar. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- AOS Animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
